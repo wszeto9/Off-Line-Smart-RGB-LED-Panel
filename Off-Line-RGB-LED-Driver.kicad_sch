@@ -6,8 +6,8 @@
 
   (title_block
     (title "Main")
-    (date "2023-12-18")
-    (rev "A01")
+    (date "2023-12-30")
+    (rev "A02")
   )
 
   (lib_symbols
@@ -777,7 +777,8 @@
     (uuid f27ba830-f6e5-49f6-b195-40eb6e788621)
   )
 
-  (text "CHANGELOG/NOTES\n\nREV A: " (at 19.685 22.86 0)
+  (text "CHANGELOG/NOTES\n\nREV A01: Initial Design\nREV A02: R5 10k -> 510k for D3 to be dimmer, R4 20k -> 10k for BOM count reduction (nothing else uses 20k)"
+    (at 19.685 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fba33dfb-ab80-431d-9e1c-7f90a16c8c17)
   )

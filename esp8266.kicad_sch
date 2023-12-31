@@ -5,8 +5,8 @@
   (paper "USLetter")
 
   (title_block
-    (date "2023-12-18")
-    (rev "A01")
+    (date "2023-12-30")
+    (rev "A02")
   )
 
   (lib_symbols
@@ -1344,6 +1344,12 @@
   (wire (pts (xy 40.64 160.02) (xy 31.75 160.02))
     (stroke (width 0) (type default))
     (uuid ffa8bd45-bcd9-485c-a4d6-f062b3d0ae68)
+  )
+
+  (text "    Capacitively coupled isolator\nFTDI Header <- | -> ESP32 (High Voltage!)"
+    (at 60.96 137.16 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4e21c779-8d48-4903-a055-f56ac0c2dcdd)
   )
 
   (label "GPIO0" (at 172.72 137.16 0) (fields_autoplaced)
